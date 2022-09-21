@@ -7,7 +7,7 @@ function style() {
   return (
     <div>
       <header> Styling in React </header>
-      <div style={{padding: '0px 10px'}}>
+      <div className="bodyContent">
         <p className="important"> Styling can be done within the tags itself or in a css file.  </p>
         <p> Notice the <strong>style={`{{}}`}</strong> used below!</p>
         <p> For example, instead of styling a given paragraph tag in a CSS file, we can do it in-line within our javascript file:</p>

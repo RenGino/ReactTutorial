@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <header> React State </header>
-      <div style={{padding: '0px 10px'}}>
+      <div className="bodyContent">
         <p className="important"> State is the most important thing to remember about React! </p>
         <p> We use state as a variable by way of the <strong>useState{`()`}</strong> hook. 
             We can think of this hook as a function that will return the information pertaining to the DOM's state when called. </p>
